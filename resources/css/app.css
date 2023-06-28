@@ -1,0 +1,70 @@
+html{
+    background-color: rgb(42, 39, 35);
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.login-caja{
+    background-color: whitesmoke;
+    height: 350px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    animation-duration: 0.8s;
+    animation-name: log;
+}
+@keyframes log{
+    from{
+        margin-top: -100%;
+    }
+    to{
+        margin-top: 0%;
+    }
+}
+
+
+.front-title{
+    font-size: 24px;
+    position: relative;
+    top: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.login-body{
+    display: flex;
+    justify-content: center;
+}
+#email{
+    border-radius: 15px;
+    width: 87%;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    top: -5px
+}
+#password{
+    border-radius: 15px;
+    padding: 15px;
+    width: 87%;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.boton-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boton-logear{
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    padding: 15px;
+    padding-left: 92px;
+    padding-right: 92px;
+}

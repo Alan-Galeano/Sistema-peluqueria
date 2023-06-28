@@ -1,0 +1,24 @@
+body{
+    background: rgba(77,135,173,255);
+}
+.formlogin{
+    background: rgba(18, 34, 76, 0.8);
+}
+.loginhead{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.loginbtn{
+    background: rgba(77,135,173,255);
+}
+.loginlabel{
+    color: white;
+}
+.inputlgn{
+    color: white;
+    background: rgba(77,135,173,0.4);
+}
+.inputlgn:focus{
+    background: rgba(77,135,173,0.8);
+    color: white;
+}
